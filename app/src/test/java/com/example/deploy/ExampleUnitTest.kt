@@ -17,8 +17,8 @@ class ExampleUnitTest {
 
     @Test
     fun Driving(){
-        val d = Skrr()
-        val expected = "Skrr Skrr"
+        val d = Unit_testing()
+        val expected = "Testing Testing Code"
         val actual = d.Drive()
         assertEquals(expected, actual)
     }
